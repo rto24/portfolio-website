@@ -1,9 +1,25 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
+
+export const productItems = [
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/p2.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/p3.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/p4.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/dock.svg"},
+]
 
 export const gridItems = [
   {

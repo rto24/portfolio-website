@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { div } from "framer-motion/client";
 
 export const BentoGrid = ({
   className,
