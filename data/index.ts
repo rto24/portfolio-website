@@ -5,20 +5,20 @@ export const navItems = [
 ];
 
 export const productItems = [
+  {title: "K8 Mate - cluster visualization", link: "https://k8mate.vercel.app/", thumbnail: "/tree.jpg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/k8mate.jpg"},
+  {title: "K8 Mate - alert system", link: "https://k8mate.vercel.app/", thumbnail: "/alerts.jpg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/k8mate-graphs.jpg"},
   {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/p2.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/p3.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/p4.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/b1.svg"},
-  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/dock.svg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/spoti-open-spots.jpg"},
+  {title: "Spoti", link: "https://github.com/rto24/Spoti", thumbnail: "/spoti.jpg"},
+  {title: "Spoti - Book a spot", link: "https://github.com/rto24/Spoti", thumbnail: "/spoti-booking.jpg"},
+  {title: "PantryGen", link: "https://github.com/rto24/PantryGen", thumbnail: "/pantry-gen.jpg"},
+  {title: "PantryGen", link: "https://github.com/rto24/PantryGen", thumbnail: "/pantry-gen.jpg"},
+  {title: "BookHiker - search for new books", link: "", thumbnail: "/bookhiker-search.jpg"},
+  {title: "BookHiker - all types of exploration", link: "", thumbnail: "/bookhiker-explore.jpg"},
+  {title: "BookHiker", link: "", thumbnail: "/bookhiker.jpg"},
+  {title: "K8 Mate", link: "https://k8mate.vercel.app/", thumbnail: "/k8mate-terminal.jpg"},
 ]
 
 export const gridItems = [
