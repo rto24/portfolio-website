@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import { HeroParallax } from "@/components/ui/ProjectParallax";
 import { FloatingNav } from "@/components/ui/Navbar";
+import { CardDemo } from "@/components/ui/TechCard";
 import { productItems } from "@/data";
 import { navItems } from "@/data";
 
@@ -15,6 +16,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <CardDemo />
         <HeroParallax 
           products={productItems}
         />
