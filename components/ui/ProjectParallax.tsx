@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { TextGenerateEffect } from "./TextGenerateEffect";
 
 export const HeroParallax = ({
   products,
@@ -104,14 +105,28 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <section id="projects">
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
+    {/* <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
         My Work
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
        A collection of full-stack applications I have made. These projects were primarily made with React, TypeScript, Node.js, Express, MongoDB, and PostgreSQL.
       </p>
-    </div>
+    </div> */}
+     <div className="flex justify-center relative my-20 z-10">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+
+          <TextGenerateEffect 
+            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="My Work"
+          />
+
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          A collection of full-stack applications I have made. These projects were primarily made with React, TypeScript, Node.js, Express, MongoDB, and PostgreSQL.
+          </p>
+
+        </div>
+      </div>
     </section>
   );
 };
