@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ShimmerButton = ({ 
-  title, icon, position, handleClick, otherClasses 
+  title, icon, position
 } : {
   title: string; icon: React.ReactNode; position: string; handleClick?: () => void; otherClasses?: string
 }) => {

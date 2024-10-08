@@ -35,7 +35,7 @@ export const TextGenerateEffect = ({
         }
       );
     }
-  }, [isClient, scope.current, animate]);
+  }, [isClient, scope, animate, duration, filter]);
 
   const wordsArray = words.split(" ");
 
