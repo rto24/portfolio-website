@@ -13,6 +13,7 @@ const Contact = () => {
           href={item.href}
           className={item.className}
           containerClassName={item.containerClassName}
+          download={item.title === "Download my Resume"}
         >
           <div className="flex items-center space-x-4">
             <img

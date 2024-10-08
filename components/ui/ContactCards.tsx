@@ -10,12 +10,14 @@ export const PinContainer = ({
   href,
   className,
   containerClassName,
+  download,
 }: {
   children: React.ReactNode;
   title?: string;
   href?: string;
   className?: string;
   containerClassName?: string;
+  download?: boolean;
 }) => {
   const [isMounted, setIsMounted] = useState(false);
   const [transform, setTransform] = useState(
@@ -45,6 +47,7 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      download={download ? "Richard_To_Resume_SWE.pdf" : undefined}
       href={href || "/"}
     >
       <div

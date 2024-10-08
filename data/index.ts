@@ -28,7 +28,7 @@ export const avatarItems = [
 export const contactItems = [
   {title: "My LinkedIn", href: "https://www.linkedin.com/in/richardto24/", className: "text-white p-4 rounded-lg", containerClassName: "flex items-center justify center", image: "/linkedin.svg", name: "LinkedIn", description: "Reach out to me on LinkedIn!"},
   {title: "My GitHub", href: "https://github.com/rto24", className: "text-white p-4 rounded-lg", containerClassName: "flex items-center justify center", image: "/github.svg", name: "GitHub", description: "Some of my most recent work"},
-  {title: "Donwload my Resume", href: "", className: "text-white p-4 rounded-lg", containerClassName: "flex items-center justify center", image: "/richard-to.jpg", name: "Resume", description: "Get to know more about my experience"}
+  {title: "Donwload my Resume", href: "/Richard_To_Resume_SWE.pdf", className: "text-white p-4 rounded-lg", containerClassName: "flex items-center justify center", image: "/richard-to.jpg", name: "Resume", description: "Get to know more about my experience"}
 ]
 
 export const gridItems = [
