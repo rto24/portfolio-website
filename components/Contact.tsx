@@ -1,6 +1,7 @@
 import React from 'react'
 import { PinContainer } from './ui/ContactCards'
 import { contactItems } from '@/data'
+import Image from 'next/image';
 
 const Contact = () => {
   return (
@@ -16,9 +17,11 @@ const Contact = () => {
           download={item.title === "Download my Resume"}
         >
           <div className="flex items-center space-x-4">
-            <img
+            <Image
               src={item.image}
               alt="Contact Icon"
+              width={48}
+              height={48}
               className="w-12 h-12 rounded-full"
             />
             <div>
