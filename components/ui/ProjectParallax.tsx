@@ -105,14 +105,6 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <section id="projects">
-    {/* <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        My Work
-      </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-       A collection of full-stack applications I have made. These projects were primarily made with React, TypeScript, Node.js, Express, MongoDB, and PostgreSQL.
-      </p>
-    </div> */}
      <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 
@@ -151,7 +143,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0"
+      className="group/product h-72 w-[18rem] sm:h-80 sm:w-[24rem] md:h-96 md:w-[30rem] relative flex-shrink-0"
     >
       <Link
         href={product.link}
