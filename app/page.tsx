@@ -1,10 +1,13 @@
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
+import Contact from "@/components/Contact";
 import { HeroParallax } from "@/components/ui/ProjectParallax";
 import { FloatingNav } from "@/components/ui/Navbar";
 import { CardDemo } from "@/components/ui/TechCard";
+import { AnimatedTooltip } from "@/components/ui/ProfilePic";
 import { productItems } from "@/data";
 import { navItems } from "@/data";
+import { avatarItems } from "@/data";
 
 export default function Home() {
   return (
@@ -15,12 +18,16 @@ export default function Home() {
           navItems={navItems}
         />
         <Hero />
-        <Grid />
+        <AnimatedTooltip 
+          items={avatarItems}
+        />
         <CardDemo />
         <HeroParallax 
           products={productItems}
         />
+      <Contact />
       </div>
     </main>
   );
 }
+
