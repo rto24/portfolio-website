@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const Contact = () => {
   return (
-    <section id='contact'>
-    <div className="flex flex-wrap justify-center">
+    <section id="contact" className="mt-24 sm:mt-40 lg:mt-24 py-12 sm:py-16">
+    <div className="flex flex-wrap justify-center gap-6 sm:gap-8">
       {contactItems.map((item, index) => (
         <PinContainer
           key={index}
