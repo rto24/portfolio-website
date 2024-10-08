@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
 import Contact from "@/components/Contact";
 import { HeroParallax } from "@/components/ui/ProjectParallax";
 import { FloatingNav } from "@/components/ui/Navbar";

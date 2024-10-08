@@ -9,11 +9,11 @@ export function CardDemo() {
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
-      <CardTitle>Tech Stack</CardTitle>
+      {/* <CardTitle>Tech Stack</CardTitle>
       <CardDescription>
         A card that showcases a set of tools that you use to create your
         product.
-      </CardDescription>
+      </CardDescription> */}
     </>
   );
 }
@@ -82,7 +82,7 @@ export const CardTitle = ({
   return (
     <h3
       className={cn(
-        "text-lg font-semibold text-gray-800 dark:text-white py-2",
+        "text-5xl font-semibold text-gray-800 dark:text-white py-2",
         className
       )}
     >
