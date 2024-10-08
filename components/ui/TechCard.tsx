@@ -9,11 +9,6 @@ export function CardDemo() {
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
-      {/* <CardTitle>Tech Stack</CardTitle>
-      <CardDescription>
-        A card that showcases a set of tools that you use to create your
-        product.
-      </CardDescription> */}
     </>
   );
 }
@@ -37,7 +32,7 @@ const Skeleton = () => {
 
   return (
     <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-4">
+      <div className="flex flex-wrap justify-center items-center gap-4 mt-8">
         <Container className="h-16 w-16 circle-1">
           <MongoDBLogo className="h-8 w-8" />
         </Container>
@@ -123,10 +118,10 @@ export const CardSkeletonContainer = ({
   return (
     <div
       className={cn(
-        "h-[15rem] md:h-[20rem] rounded-xl z-40",
+        "h-[20rem] md:h-[20rem] rounded-xl z-40",
         className,
         showGradient &&
-          "bg-neutral-300 dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
+          "bg-neutral-300 dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(60%_60%_at_50%_50%,white_0%,transparent_100%)]"
       )}
     >
       {children}
