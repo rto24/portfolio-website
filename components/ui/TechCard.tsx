@@ -19,20 +19,21 @@ export function CardDemo() {
 }
 
 const Skeleton = () => {
-  const scale = [1, 1.1, 1];
-  const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
-  const sequence = Array.from({ length: 10 }, (_, i) => [
-    `.circle-${i + 1}`,
-    { scale, transform },
-    { duration: 0.8 },
-  ]);
-
-  useEffect(() => {
-    animate(sequence, {
-      repeat: Infinity,
-      repeatDelay: 1,
+    const scale = [1, 1.1, 1];
+    const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
+    useEffect(() => {
+    Array.from({ length: 10 }, (_, i) => {
+      animate(
+        `.circle-${i + 1}`, 
+        { scale, transform }, 
+        {
+          duration: 0.8, 
+          repeat: Infinity, 
+          repeatDelay: 1, 
+        }
+      );
     });
-  }, [sequence]);
+  });
 
   return (
     <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
