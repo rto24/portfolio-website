@@ -35,7 +35,7 @@ const Hero = () => {
             Hi, I'm Richard, a software engineer based in Toronto, ON.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <ShimmerButton 
               title="See my work"
               icon={<FaLocationArrow />}
